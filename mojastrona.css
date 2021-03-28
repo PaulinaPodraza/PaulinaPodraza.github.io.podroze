@@ -1,0 +1,91 @@
+.tło {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./image/P5.jpg");
+  background-size: cover;
+}
+
+.tytuł {
+  text-align: center;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.rzym,
+.egipt,
+.praga,
+.chorwacja {
+  width: 10vw;
+  height: 30vh;
+  opacity: 1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+  bottom: 20px;
+  -o-transition-duration: width 2s, height 2s, transform 2s;
+}
+
+.rzym:hover,
+.egipt:hover,
+.praga:hover,
+.chorwacja:hover {
+  width: 97vw;
+  height: 95vh;
+  background-position: center;
+}
+
+.rzym:hover {
+  transform: translateY(30px);
+  
+}
+.egipt:hover {
+  transform: translateX(190px) translateY(30px); 
+  z-index: 2;
+}
+.praga:hover {
+  transform: translateX(370px) translateY(30px);
+  z-index: 1;
+}
+.chorwacja:hover {
+  transform: translateX(550px) translateY(30px);
+  z-index: 0;
+}
+
+.rzym {
+  position: absolute;
+  right: 20px;
+  background-image: url("./image/R4.jpg");
+  background-size: cover;
+  z-index: 10;
+}
+
+.egipt {
+  position: absolute;
+  right: 200px;
+  background-image: url("./image/E3.jpg");
+  background-size: cover;
+  z-index: 10;
+}
+
+.praga {
+  position: absolute;
+  right: 380px;
+  background-image: url("./image/P1.jpg");
+  background-size: cover;
+  z-index: 10;
+}
+
+.chorwacja {
+  position: absolute;
+  right: 560px;
+  background-image: url("./image/CH5.jpg");
+  background-size: cover;
+  z-index: 10;
+}
+
+.text,
+.opis{
+  text-align: center;
+}
